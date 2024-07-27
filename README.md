@@ -104,6 +104,10 @@ $ open coverage/index.html
 
 https://www.loom.com/share/cd87e95a0c1043c297581d4bd911264b?sid=58f4c413-ac5e-4fc5-b7a7-4c65aaae8eb1
 
+# APK
+
+The apk file can be found [here](maplerad.apk)
+
 
 
 [coverage_badge]: coverage_badge.svg
