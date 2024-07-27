@@ -1,0 +1,127 @@
+{
+    "@@locale": "en",
+    "hi": "Hi",
+    "@hi": {
+        "description": "Greetings"
+    },
+    "input4digitPin": "Input your 4-digit Pin.",
+    "@input4digitPin": {
+        "description": "Input your 4-digit Pin."
+    },
+    "forgotPinCode": "Forgot PIN code?",
+    "@forgotPinCode": {
+        "description": "Forgot PIN code?"
+    },
+    "sparkles": "✨",
+    "@sparkles": {
+        "description": "sparkles emoji"
+    },
+    "welcomeBack": "Welcome back",
+    "@welcomeBack": {
+        "description": "Welcome back"
+    },
+    "useFaceIdToSignIn": "Use Face ID to sign into Wirepay",
+    "@useFaceIdToSignIn": {
+        "description": "Use Face ID to sign into Wirepay"
+    },
+    "signInWithFaceId": "Sign in with Face ID",
+    "@signInWithFaceId": {
+        "description": "Sign in with Face ID"
+    },
+    "signInWithPinCode": "Sign in with PIN code",
+    "@signInWithPinCode": {
+        "description": "Sign in with PIN code"
+    },
+    "home": "Home",
+    "@home": {
+        "description": "Home"
+    },
+    "wirebeam": "Wirebeam",
+    "@home": {
+        "description": "Wirebeam"
+    },
+    "cards": "Cards",
+    "@cards": {
+        "description": "Cards"
+    },
+    "myAccounts": "My Accounts",
+    "@myAccounts": {
+        "description": "My Accounts"
+    },
+    "hideBalance": "Hide balance",
+    "@hideBalance": {
+        "description": "Hide balance"
+    },
+    "usd": "USD",
+    "@usd": {
+        "description": "USD"
+    },
+    "ghs": "GHS",
+    "@ghs": {
+        "description": "GHS"
+    },
+    "ngn": "NGN",
+    "@ngn": {
+        "description": "NGN"
+    },
+    "sendMoney": "Send Money",
+    "@sendMoney": {
+        "description": "Send Money"
+    },
+    "addMoney": "Add Money",
+    "@addMoney": {
+        "description": "Add Money"
+    },
+    "getStarted": "Get started",
+    "@getStarted": {
+        "description": "Get started"
+    },
+    "viewAllSteps": "View all steps",
+    "@viewAllSteps": {
+        "description": "View all steps"
+    },
+    "verifyYourIdentity": "Verify your identity",
+    "@verifyYourIdentity": {
+        "description": "Verify your identity"
+    },
+    "submitAdditionalInformation": "Submit additional information to verify your identity.",
+    "@submitAdditionalInformation": {
+        "description": "Submit additional information to verify your identity."
+    },
+    "verifyIdentity": "Verify identity",
+    "@verifyIdentity": {
+        "description": "Verify identity"
+    },
+    "dismiss": "Dismiss",
+    "@dismiss": {
+        "description": "Dismiss"
+    },
+    "wirepayAI": "Wirepay AI",
+    "@wirepayAI": {
+        "description": "Wirepay AI"
+    },
+    "accountInformation": "Account Information",
+    "@accountInformation": {
+        "description": "Account Information"
+    },
+    "viewRates": "View rates",
+    "@viewRates": {
+        "description": "View rates"
+    },
+    "viewAllLimits": "View all limits",
+    "@viewAllLimits": {
+        "description": "View all limits"
+    },
+    "dailyLimit": "Daily limit",
+    "@dailyLimit": {
+        "description": "Daily limit"
+    },
+    "theseAmountDoNotIncludeFees": "These amounts don’t include fees. Lat updated:",
+    "@theseAmountDoNotIncludeFees": {
+        "description": "These amounts don’t include fees. Lat updated:"
+    },
+    "earn": "Earn",
+    "@earn": {
+        "description": "Earn"
+    }
+}

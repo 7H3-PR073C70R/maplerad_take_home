@@ -1,0 +1,55 @@
+name: maplerad_take_home_project
+
+concurrency:
+  group: $-$
+  cancel-in-progress: true
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  semantic-pull-request:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/semantic_pull_request.yml@v1
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          version: "3.4.0"
+          channel: "stable"
+          
+      - run: touch  - .env.development
+
+      - run: touch  - .env.staging
+
+      - run: touch  - .env.production
+
+      - run: dart pub upgrade
+
+      - run: flutter pub get
+
+      - run: flutter pub run build_runner build --delete-conflicting-outputs
+
+      - run: dart format .
+
+      - run: flutter analyze
+
+      - run: flutter test
+
+  spell-check:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/spell_check.yml@v1
+    with:
+      includes: |
+        **/*.md
+      modified_files_only: false
+
