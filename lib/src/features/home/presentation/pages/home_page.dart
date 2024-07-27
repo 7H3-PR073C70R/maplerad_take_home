@@ -122,12 +122,13 @@ class HomePage extends HookWidget {
               const Spacer(),
               ShrinkableButton(
                 child: Text(
-                  'View all steps',
+                  appString.viewAllSteps,
                   style: context.textTheme.bodyMedium?.copyWith(
                     fontSize: 14.fontSize,
                     fontWeight: FontWeight.w500,
                     color: AppColors.kcPrimary,
                     decoration: TextDecoration.underline,
+                    decorationColor: AppColors.kcPrimary,
                   ),
                 ),
                 onTap: () {},
